@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            background: #BA0000;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            float: left;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 5px 15px;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        nav ul li ul {
+            background-color: #BA0000;
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li {
+            width: 300px;
+            border-bottom: 1px solid white;
+        }
+
+        nav ul li ul li a {
+            padding: 10px;
+        }
+
+        nav ul li ul li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .content {
+            margin-top: 60px;
+            padding: 20px
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a><strong>1°EM - informática para Web</strong></a>
+                <ul>
+                    <li><a href="">lingua portuguesa</a></li>
+                    <li><a href="">ingles</a></li>
+                    <li><a href="">espanhol</a></li>
+                    <li><a href="">Matemática</a></li>
+                    <li><a href="">Educação Fisica</a></li>
+                    <li><a href="">Arte</a></li>
+                    <li><a href="">filosofia</a></li>
+                    <li><a href="">sociologia</a></li>
+                    <li><a href="">Arte digital</a></li>
+                    <li><a href="">Banco de dados</a></li>
+                    <li><a href="">fundamentos da informática</a></li>
+                    <li><a href="">Programação e algorítimos</a></li>
+                    <li><a href="">Gestão de conteúdo</a></li>
+                    <li><a href="">interface Web I</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a><strong>2°EM - informática para Web</strong></a>
+                <ul>
+                    <li><a href="">lingua portuguesa</a></li>
+                    <li><a href="">ingles</a></li>
+                    <li><a href="">Matemática</a></li>
+                    <li><a href="">Educação Fisica</a></li>
+                    <li><a href="">História</a></li>
+                    <li><a href="">Geografia</a></li>
+                    <li><a href="">Física</a></li>
+                    <li><a href="">Química</a></li>
+                    <li><a href="">biologia</a></li>
+                    <li><a href="">Gestão de conteúdo Web II</a></li>
+                    <li><a href="">interface Web II</a></li>
+                    <li><a href="">Usabilidade e desing de interação</a></li>
+                    <li><a href="">Desenvolvimento para dispositivos móveis</a></li>
+                    <li><a href="">Sistema Web I</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a><strong>3°EM - informática para Web</strong></a>
+                <ul>
+                    <li><a href="">lingua portuguesa</a></li>
+                    <li><a href="">ingles</a></li>
+                    <li><a href="">Matemática</a></li>
+                    <li><a href="">História</a></li>
+                    <li><a href="">Geografia</a></li>
+                    <li><a href="">Física</a></li>
+                    <li><a href="">Química</a></li>
+                    <li><a href="">biologia</a></li>
+                    <li><a href="">Desenvolvimento para dispositivos móveis II</a></li>
+                    <li><a href="">Sistema Web II</a></li>
+                    <li><a href="">Acessibilidade Digital</a></li>
+                    <li><a href="">Segurança da informação</a></li>
+                    <li><a href="">Etica e cidadania organizacional</a></li>
+                    <li><a href="">PDTCC</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div style="clear: both;"></div>
+    </nav>
+    <div class="content">
+        <h1>Bem-Vindo</h1>
+        <p>Conteudo da pagina aqui...</p>
+        <p>Aqui você pode adicionar o que quiser!</p>
+    </div>
+</body>
+</html>
