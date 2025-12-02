@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #006437;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('imagens/allianz-parque-1.webp') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.conteudo {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    
+}
+
+footer {
+    background: #004d2c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #006437;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero2 {
+    background: url('imagens/libertadores-2.jpeg') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+        font-size: 35px;
+}
+
+.hero3 {
+    background: url('imagens/220106_header_palmeiras.jpg') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+        font-size: 35px;
+}
+
+.hero4 {
+    background: url('imagens/04.webp') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+        font-size: 35px;
+}
